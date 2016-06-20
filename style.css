@@ -1,0 +1,146 @@
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-user-select: none;
+  background-color: rgba(245, 232, 167, 0.35);
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  margin: 0px;
+}
+
+#grid_container {
+  background-color: rgb(226, 210, 230);
+  width: 700px;
+  height: 700px;
+  margin: 20px auto;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  clear: both;
+}
+
+.cellule {
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(236, 238, 218, 0.35);
+  text-align: center;
+  font-size: 3.5em;
+  line-height: 150px;
+}
+
+.score {
+  width: 150px;
+  height: 75px;
+  background-color: rgb(226, 210, 230);
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin-left: 10px;
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.score p {
+  margin: 0px;
+}
+
+.bestscore {
+  width: 150px;
+  height: 75px;
+  background-color: rgb(226, 210, 230);
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.bestscore p {
+  margin: 0 auto;
+}
+
+.tag {
+  text-align: center;
+}
+
+.color_2 {
+  background: rgb(238, 227, 185) !important;
+}
+
+.color_4 {
+  background-color: rgb(224, 194, 197) !important;
+}
+
+.color_8 {
+  background-color: rgb(173, 224, 179) !important;
+  color: white !important;
+}
+
+.color_16 {
+ background-color: rgb(219, 159, 145) !important;
+ color: white !important;
+}
+
+.color_32 {
+  background-color: rgb(166, 223, 215) !important;
+  color: white !important;
+}
+
+.color_64 {
+  background-color: rgb(211, 168, 240) !important;
+  color: white !important;
+}
+
+.color_128 {
+ background-color: rgb(240, 86, 123) !important;
+ color: white !important;
+}
+
+.button {
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+ width: 120px;
+ border-radius: 22px;
+ background: rgb(226, 210, 230);
+ background-image: -webkit-linear-gradient(top, rgb(226, 210, 230), #c591d6);
+ border: none;
+ margin-right: 630px;
+}
+
+.button_center {
+  display: block;
+  text-align: center;
+  float: right;
+  margin-right: 00px;
+}
+#win, #lose {
+  background-color: rgba(72, 48, 89, 0.77);
+  height: 630px;
+  width: 630px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 3px;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 600px;
+  font-size: 4em;
+  margin-top: 35px;
+  margin-left: 35px;
+}
